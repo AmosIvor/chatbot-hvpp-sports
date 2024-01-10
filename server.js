@@ -16,3 +16,5 @@ require("./routes/chatbot")(app);
 app.listen(port, () => {
   console.log(`Server is running with port: ${port}!`);
 });
+
+module.exports = app;
